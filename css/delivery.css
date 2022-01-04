@@ -1,0 +1,40 @@
+/* Section delivery start */
+.delivery {
+  padding: 148px 0 174px;
+  background-color: #fff;
+}
+.how_much {
+}
+.settlement_delivery {
+  max-width: 1264px;
+  width: 100%;
+  display: flex;
+  margin: 53px auto 0;
+  justify-content: space-between;
+  text-align: center;
+}
+.settlement_delivery li {
+  max-width: 370px;
+  width: 100%;
+}
+.settlement_delivery h3 {
+  font-size: 17px;
+  line-height: 21px;
+  margin-top: 34px;
+  text-transform: none;
+}
+.settlement_delivery p {
+  margin: 44px 0 36px;
+  font-size: 14px;
+}
+.settlement_delivery span {
+  min-width: 109px;
+  height: 31px;
+  background-color: #b056d2;
+  border-radius: 13px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  padding: 7px 28px;
+}
+/* Section delivery End */
