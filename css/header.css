@@ -1,7 +1,6 @@
 /* Header */
 .navigation {
-  background: url("D:/Projects/Learning_from_Roma/lesson_2/img/city_port.png")
-    no-repeat center center / cover;
+  background: url("../img/city_port.png") no-repeat center center / cover;
   color: #fff;
   padding-top: 45px;
   height: 691px;
