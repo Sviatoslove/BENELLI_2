@@ -45,14 +45,16 @@
     width: 520px;
   }
   .nav {
-    left: 35%;
+    text-align: center;
     width: 40%;
+    left: 50%;
+    transform: translate(-50%);
   }
   .menu {
     flex-direction: column;
   }
   .menu li:not(:last-child) {
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
   }
   .main_heading p {
     font-size: 18px;
@@ -74,8 +76,8 @@
     max-width: 155px;
     margin-bottom: 10px;
   }
-  .length {
-    font-size: 8px;
+  .length, .avia, .auto, .shop, .bottom_left_corner {
+    word-wrap: break-word;
   }
   
 }
@@ -83,5 +85,86 @@
 @media screen and (max-width: 576px) {
   .container {
     width: 90%;
+  }
+  .head {
+    flex-direction: column;
+  }
+  .nav {
+    text-align: center;
+    width: 56%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .menu li:not(:last-child) {
+    margin-right: 0;
+  }
+  .button_call {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .main_heading p {
+    font-size: 15px;
+    line-height: 13px;
+  }
+  .main_heading h1 {
+    line-height: 26px;
+  }
+  .form {
+    min-width: 288px;
+    height: 100%;
+    padding: 15px 15px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .delivery {
+    padding-bottom: 30px;
+  }
+  .how_much {
+    margin-top: 50px;
+  }
+  .settlement_delivery {
+    flex-direction: column;
+  }
+  .settlement_delivery li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sale {
+    text-align: left;
+  }
+  .percent {
+    font-size: 16px;
+    line-height: 28px;
+    white-space: inherit;
+  }
+  .rectangle {
+    position: absolute;
+    top: 8%;
+    left: 72%;
+    height: 23px;
+    padding: 3px 14px;
+    font-size: 13px;
+  }
+  .soon {
+    height: 156px;
+  }
+  .time {
+    padding-top: 19px;
+  }
+  .table {
+    height: 300px;
+  }
+  .length, .avia, .auto, .shop, .bottom_left_corner {
+    font-size: 12px;
+  }
+  .reserved {
+    flex-direction: column;
+  }
+  .reserved p {
+    margin: 20px 0;
   }
 }
