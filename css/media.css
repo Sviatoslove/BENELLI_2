@@ -158,6 +158,12 @@
   .table {
     height: 300px;
   }
+  .length {
+    padding-top: 10px;
+  }
+  .bottom_left_corner {
+    padding-bottom: 15px;
+  }
   .length, .avia, .auto, .shop, .bottom_left_corner {
     font-size: 12px;
   }
