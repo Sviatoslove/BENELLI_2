@@ -64,7 +64,7 @@
   }
   .form {
     min-width: 520px;
-    padding-top: 15px;
+    padding: 15px 10px;
   }
   .form h4 {
     margin-bottom: 15px;
@@ -128,10 +128,12 @@
   }
   .settlement_delivery {
     flex-direction: column;
+
   }
   .settlement_delivery li {
     width: 100%;
-    margin-bottom: 20px;
+    margin:0 auto 20px;
+
   }
   .sale {
     text-align: left;
@@ -154,18 +156,6 @@
   }
   .time {
     padding-top: 19px;
-  }
-  .table {
-    height: 300px;
-  }
-  .length {
-    padding-top: 10px;
-  }
-  .bottom_left_corner {
-    padding-bottom: 15px;
-  }
-  .length, .avia, .auto, .shop, .bottom_left_corner {
-    font-size: 12px;
   }
   .reserved {
     flex-direction: column;
